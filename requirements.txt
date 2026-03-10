@@ -1,16 +1,4 @@
 # Requirements for MNIST Statistical Analysis Project
-# 
-# This file contains all Python packages required for Tasks 1-3
-# 
-# Installation:
-#   pip install -r requirements.txt
-#   or
-#   pip3 install -r requirements.txt
-#
-# Tasks covered:
-#   - Task 1: Dataset Acquisition (01_dataset_loading.ipynb)
-#   - Task 2: Data Preprocessing (02_data_preprocessing.ipynb)
-#   - Task 3: Statistical Distribution Analysis (03_distribution_analysis.ipynb)
 
 # Core data manipulation and numerical computing
 numpy>=1.21.0
