@@ -1,1 +1,30 @@
-Logistic Regression Test Accuracy: 0.738643
+Logistic Regression — Test Metrics
+Accuracy: 0.738643
+Balanced accuracy: 0.730038
+Precision (macro): 0.792720
+Recall (macro): 0.730038
+F1 (macro): 0.719739
+Precision (weighted): 0.786505
+Recall (weighted): 0.738643
+F1 (weighted): 0.722445
+Log loss: 1.677253
+Top-3 accuracy: 0.936357
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0     0.7832    0.9442    0.8562      1343
+           1     0.5401    0.9888    0.6986      1600
+           2     0.8860    0.6986    0.7812      1380
+           3     0.6270    0.7872    0.6980      1433
+           4     0.7980    0.8178    0.8078      1295
+           5     0.9676    0.1877    0.3145      1273
+           6     0.8606    0.8489    0.8547      1396
+           7     0.7600    0.8809    0.8160      1503
+           8     0.8828    0.5718    0.6941      1357
+           9     0.8218    0.5746    0.6763      1420
+
+    accuracy                         0.7386     14000
+   macro avg     0.7927    0.7300    0.7197     14000
+weighted avg     0.7865    0.7386    0.7224     14000
+
