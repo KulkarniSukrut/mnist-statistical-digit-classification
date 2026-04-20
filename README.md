@@ -32,8 +32,8 @@ mnist-statistical-digit-classification/
 ├── notebooks/                # Main workflow notebooks (Task 1 → Task 6)
 ├── images/                   # Generated plots and visual outputs
 ├── models/                   # Trained model artifacts (.pkl)
-├── results/                  # Metrics, summaries, and sampling outputs
-├── final notebook/           # Final notebook placeholder/demo file
+├── results/                  # Metrics, summaries, and Task 5 sampling plots
+├── final notebook/           # Existing folder name in repo (contains demo file)
 ├── requirements.txt          # Python dependencies
 └── LICENSE                   # MIT license
 ```
@@ -76,7 +76,7 @@ Run notebooks in order for full reproducibility:
      - `images/pixel_location_distributions.png`
      - `images/average_digits.png`
 
-4. **Task 4 Logistic Regression Notebook**
+4. **`04_Logestic_regression.ipynb` (Task 4: Logistic Regression)**
    - Flattens image tensors for linear modeling.
    - Trains multinomial logistic regression (`lbfgs`, `max_iter=1000`).
    - Evaluates with accuracy, balanced accuracy, macro/weighted precision-recall-F1, log loss, top-3 accuracy.
