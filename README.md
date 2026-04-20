@@ -76,7 +76,7 @@ Run notebooks in order for full reproducibility:
      - `images/pixel_location_distributions.png`
      - `images/average_digits.png`
 
-4. **Task 4 Logistic Regression (`04_Logestic_regression.ipynb`)**
+4. **Task 4 Logistic Regression Notebook**
    - Flattens image tensors for linear modeling.
    - Trains multinomial logistic regression (`lbfgs`, `max_iter=1000`).
    - Evaluates with accuracy, balanced accuracy, macro/weighted precision-recall-F1, log loss, top-3 accuracy.
